@@ -1,5 +1,18 @@
 # HW 4: *3D Stylization*
 
+# Progress Report
+
+## Three-tone smooth toon shader with multiple lights
+<img width="751" height="662" alt="Screenshot 2025-09-30 010422" src="https://github.com/user-attachments/assets/777dfd65-d744-4f29-8405-e53f3c6d7c69" />
+
+## Desired image (may be subject to change)
+![The_Scream](https://github.com/user-attachments/assets/e8555c34-74e5-4fff-b8d2-09906302fe24)
+
+## Procedurally generated seamless textures (made using blender shader nodes)
+<img width="1024" height="1024" alt="seamless_drawn_small" src="https://github.com/user-attachments/assets/732687aa-f5fc-4df1-b0c2-60f557c34c88" />
+<img width="1024" height="1024" alt="seamless_paint_small" src="https://github.com/user-attachments/assets/227a5b96-a883-403b-9556-f3c37c142e8a" />
+
+
 ## Project Overview:
 In this assignment, you will use a 2D concept art piece as inspiration to create a 3D Stylized scene in Unity. This will give you the opportunity to explore stylized graphics techniques alongside non-photo-realistic (NPR) real-time rendering workflows in Unity.
 
