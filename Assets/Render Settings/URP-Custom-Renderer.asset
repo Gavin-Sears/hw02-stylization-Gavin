@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-459641759611484279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8faec35144280c146ac2395f7d7187de, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    renderPassEvent: 500
+    material: {fileID: 2100000, guid: 7ef64ad5393b76d48a57d96bffc9197a, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21,7 +37,8 @@ MonoBehaviour:
   - {fileID: 8847338812440952062}
   - {fileID: 67156942961836155}
   - {fileID: 3362337498019241527}
-  m_RendererFeatureMap: ad1b4146b8d5d26dfebc1153c60fc87a7b007141e296ee00379e69d8236ca92e
+  - {fileID: -459641759611484279}
+  m_RendererFeatureMap: ad1b4146b8d5d26dfebc1153c60fc87a7b007141e296ee00379e69d8236ca92e89076c4241069ff9
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 0}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -47,7 +64,7 @@ MonoBehaviour:
   m_AssetVersion: 2
   m_OpaqueLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 63
   m_TransparentLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -79,7 +96,7 @@ MonoBehaviour:
   m_Active: 1
   normalsLayerMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 119
   NormalsTexture: {fileID: 8400000, guid: a348fe2d588e6ba48b8e31d4143cb7ba, type: 2}
   _NormalsEvent: 300
   normalsMaterial: {fileID: 2100000, guid: 1dc84b4f1edffc149af9a5f80545d266, type: 2}
@@ -93,7 +110,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8faec35144280c146ac2395f7d7187de, type: 3}
-  m_Name: FullScreenFeature
+  m_Name: Outlines
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:

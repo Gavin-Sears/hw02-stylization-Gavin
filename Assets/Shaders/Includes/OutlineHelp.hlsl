@@ -44,7 +44,7 @@ void DepthSobel_float(float2 uv, float thickness, out float Out)
     
     [unroll]
     for (int i = 0; i < 9; ++i)
-    {
+    {   
         float depth = SHADERGRAPH_SAMPLE_SCENE_DEPTH(uv + sobelSamplePoints[i] * thickness);
         sobel += depth * float2(sobelXMatrix[i], sobelYMatrix[i]);
     }

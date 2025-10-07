@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FullScreen_Mat1
+  m_Name: FullScreen_FX
   m_Shader: {fileID: -6465566751694194690, guid: f0387819d794e2c4ea0ca76f4b39ddc1,
     type: 3}
   m_Parent: {fileID: 0}
@@ -26,6 +26,10 @@ Material:
     m_TexEnvs:
     - _ColorsBuffer:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DrawLines:
+        m_Texture: {fileID: 2800000, guid: 800fd48647724ac45bfa3b2c65d353ea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -50,10 +54,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DepthStrength: 4.05
-    - _DepthThickness: 0.9
-    - _DepthThreshold: 0.204
-    - _Thickness: 0.0012
+    - _BackgroundScale: 1.2
+    - _BackgroundScale2: 0.5
+    - _DepthStrength: 5.64
+    - _DepthThickness: 100
+    - _DepthThreshold: 2.04
+    - _NoiseScale: 7.6
+    - _NoiseScale2: 3.5
+    - _Party: 0
+    - _Speed: 0.45
+    - _Thickness: 0.0007
+    - _background_falloff: 5
+    - _mult: 1.92
     m_Colors:
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _bgCol1: {r: 0.69803923, g: 0.4666667, b: 0.29411766, a: 0}
+    - _bgCol2: {r: 0.67058825, g: 0.3019608, b: 0.21568629, a: 0}
   m_BuildTextureStacks: []
