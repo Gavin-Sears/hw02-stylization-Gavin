@@ -6,6 +6,7 @@
 "The Scream" by Edvard Munch
 
 I also was interested in a horror aesthetic like Tales from the crypt:
+
 ![Tales_from_the_Crypt_24](https://github.com/user-attachments/assets/ec16d4d0-80f7-4702-b3ec-f7a307347429)
 
 ## Procedurally generated seamless texture (made using blender shader nodes)
